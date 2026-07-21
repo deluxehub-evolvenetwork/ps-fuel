@@ -1,4 +1,4 @@
-# Recoil Fuel 3.2.1
+# PLUUUX Solutions Fuel System FiveM 3.2.1
 
 Advanced Qbox fuel system for FiveM with Renewed Banking-compatible player payments.
 
