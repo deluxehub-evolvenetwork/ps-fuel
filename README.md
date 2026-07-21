@@ -1,4 +1,4 @@
-# PS Fuel 3.2.0 — Production Release
+# PS Fuel 3.2.1 — Production Release
 
 This is the Fuel Network separated from `ps-tablet`. It does not require the tablet and includes its own FuelOS station-management and fuel-selection NUI.
 
