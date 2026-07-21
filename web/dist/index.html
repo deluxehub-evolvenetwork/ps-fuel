@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PS Fuel</title>
+  <link rel="stylesheet" href="assets/app.css" />
+</head>
+<body>
+  <main id="fuel-root" aria-hidden="true">
+    <section class="terminal" role="dialog" aria-modal="true" aria-label="PS Fuel terminal">
+      <div class="hardware-button hardware-button--top"></div>
+      <div class="hardware-button hardware-button--bottom"></div>
+      <div class="camera"><span></span></div>
+      <div class="screen">
+        <header class="topbar">
+          <div class="brand">
+            <div class="brand-mark">PS</div>
+            <div><strong>FuelOS</strong><small id="mode-label">Station terminal</small></div>
+          </div>
+          <div class="topbar-actions">
+            <span class="secure-dot"></span><span class="secure-text">SECURE LINK</span>
+            <time id="clock">00:00</time>
+            <button class="icon-button" id="close-button" aria-label="Close">×</button>
+          </div>
+        </header>
+        <div id="app"></div>
+        <footer class="screen-footer"><span>PS FUEL NETWORK</span><span id="footer-station">CONNECTED</span><span>ESC TO CLOSE</span></footer>
+      </div>
+    </section>
+    <div id="toast-stack" aria-live="polite"></div>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
+</html>
