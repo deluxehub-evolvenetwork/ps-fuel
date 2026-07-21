@@ -1,4 +1,4 @@
-# PLUUUX Solutions Fuel System FiveM 3.2.1
+# Recoil Fuel 3.2.1
 
 Advanced Qbox fuel system for FiveM with Renewed Banking-compatible player payments.
 
@@ -148,7 +148,7 @@ The delivery job now works as follows:
 - Full stations no longer erase the active delivery.
 
 
-## 3.1.0 premium tablet interface taken out the tablet now redesigned to be its own script away from the tablet
+## 3.1.0 premium tablet interface
 - Rebuilt the station and administration NUI as a physical landscape tablet.
 - Added Overview, Operations and Ledger navigation views.
 - Added live station stock percentage, reserve gauge and low-stock messaging.
@@ -159,8 +159,12 @@ The delivery job now works as follows:
 ## React + TypeScript NUI
 The physical fuel tablet is now implemented in `web/src/App.tsx` using shadcn/ui component source, Radix primitives, Tailwind CSS and Lucide icons. All existing NUI callback names are preserved.
 
-Source Code is £60 Join Our Discord to buy source code discord: https://discord.gg/g776bXDaFH
-
+To rebuild:
+```bash
+cd web
+npm ci
+npm run build
+```
 FiveM loads the production files in `web/dist`.
 
 ## 3.2.0 ownership and multi-fuel update
