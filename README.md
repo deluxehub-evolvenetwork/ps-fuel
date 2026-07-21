@@ -131,7 +131,7 @@ exports['cdn-fuel']:SetElectricNozzle('putback')
 
 Edit `config.lua` to change station positions, ownership, prices, tax, fuel types, static diesel/electric models, charge speeds, fast-charge pricing, EV chargers, nozzles, world-display height, hose behaviour, emergency discounts, deliveries, robberies and blips.
 
-The imported donor assets and behaviours retain their GPL notices in `licenses/`.
+The imported donor assets and behaviours retain their GPL notices at `https://github.com/codinedev/cdn-fuel?tab=GPL-3.0-1-ov-file and https://github.com/Project-Sloth/ps-fuel?tab=GPL-3.0-1-ov-file`.
 
 
 ## Public-release notes
